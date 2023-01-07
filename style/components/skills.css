@@ -1,0 +1,62 @@
+.skills {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.skills .center-skills {
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.skills .center-skills .head-sills .text-skills {
+    color: red;
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+
+.skills .text-center1 {
+    color: orange;
+}
+
+.skills .text-center2 {
+    color: #318CE7;
+}
+
+.skills .text-center3 {
+    color: yellow;
+}
+
+.skills .text-center4 {
+    color: #E7491C;
+}
+
+.skills .text-center5 {
+    color: #E44C30;
+}
+
+.skills .center-skills input {
+    width: 700px;
+}
+
+
+/* ============================== */
+
+@media(max-width:800px) {
+    .skills .center-skills input {
+        width: 400px;
+    }
+}
+
+@media(max-width:742px) {
+    .skills {
+        display: none;
+    }
+}

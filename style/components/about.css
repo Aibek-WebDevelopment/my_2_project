@@ -1,0 +1,76 @@
+.about {
+    width: 100%;
+    height: 87vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.about .photo img {
+    padding-top: 50px;
+}
+
+.about-me .about-header {
+    color: white;
+    font-size: 40px;
+}
+
+.about-me {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+}
+
+.about-me .about-head {
+    color: red;
+    font-size: 20px;
+}
+
+.about-me .text-about {
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 30px;
+}
+
+
+/* ====================== */
+
+@media(max-width:1010px) {
+    .about {
+        padding-top: 350px;
+    }
+    .about .photo {
+        display: none;
+    }
+    .about .about-me {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media(max-width:1200px) {
+    .about .about-me {
+        text-align: center;
+    }
+    .about {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+}
+
+@media(max-width:620px) {
+    .about .about-me {
+        padding-top: 200px;
+    }
+}
+
+@media(max-width:390px) {
+    .about .about-me {
+        padding-top: 200px;
+    }
+}
